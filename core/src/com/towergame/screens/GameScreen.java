@@ -109,7 +109,6 @@ public class GameScreen implements Screen, GestureDetector.GestureListener {
         batch.dispose();
         stage.dispose();
     }
-
     @Override
     public boolean touchDown(float x, float y, int pointer, int button) {
         System.out.println("Touch down at " + x + ", " + y);
